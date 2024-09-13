@@ -1,0 +1,18 @@
+<html xmlns:th="http://thymeleaf.org"></html>
+   
+    <head>
+        <title>New Hope Badminton Academy</title>
+        <link rel="stylesheet" href="" th:href="@{/CSS/style.css}">
+    </head>
+
+    <body>
+        
+        <div th:replace="layouts/commonHeader :: header"></div>
+
+        <section layout:fragment="content">
+            <p>Replace wiht smthg that has layout:fragmant="content"</p>
+        </section>
+        
+        <div th:replace="layouts/commonFooter :: footer"></div>
+    </body>
+</html>

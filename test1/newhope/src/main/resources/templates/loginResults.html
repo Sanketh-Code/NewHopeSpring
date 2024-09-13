@@ -1,0 +1,28 @@
+<html xmlns:th="http://thymeleaf.org"></html>
+    <html xmlns:th="http://thymeleaf.org">
+    <head>
+        <title>New Hope Badminton Academy</title>
+        <link rel="stylesheet" href="" th:href="@{/CSS/style.css}">
+    </head>
+    <body>
+        <div class="nav">
+            <img src="" th:src="@{/images/logo.png}" alt="New Hope Badminton Academy Logo" class="logo" >
+            <ul class="nav-bar", style="list-style: none;">
+                <li><a href="" th:href="@{/home}">Home</a></li>
+                <li><a href="" th:href="@{/Trainings}">Trainings</a></li>
+                <li><a href="" th:href="@{/info}">About Us</a></li>
+                <li><a href="" th:href="@{/Gallery}">Gallery</a></li>
+                <li><a href="" th:href="@{/Tournament}">Tournaments Info</a></li>
+                <li><a href="" th:href="@{/Person}">My Page</a></li>
+            </ul>
+        </div>
+
+
+        <div th:object="${loginModel}">
+
+            <p>Username: <span th:text="*{username}"></span></p>
+            <p>Password: <span th:text="*{password}"></span></p>
+
+        </div>
+    </body>
+</html>

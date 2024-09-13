@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+   
+   
+   .nav {
+    padding: 20px 0;
+    background-color: #375a7f;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.nav img.logo {
+    height: 150px;
+    margin-left:  50px; 
+    margin-top: 30px;
+    border-radius: 75px;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    background-color: #496891;
+    border-radius: 5px;
+}
+    .home1{
+        height: 550px;
+        font-size: 28px;
+        
+    }
+    .home1 h1{
+        margin-left: 125px;
+        margin-top: 50px;
+    }
+    h1{
+        font-family: "Anek Devanagari";
+        font-size: 66px;
+        font-style: bold;
+        margin: 0px;
+        display: block;
+        
+    }
+    .content .p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        font-size: 40px;
+       
+        
+        }
+    .home-img{
+        width: 500px;
+        display: inline;
+        float: right;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    /*.home2{
+        background-color: cadetblue;
+    }*/
+    
+    .home2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .home2 > h1{
+        text-align: center;
+        padding: 100px;
+        margin: 0px;
+        justify-self: center;
+        
+    }
+
+    .info-box{
+        display: flex;
+        justify-content: space-around;
+        }
+    .info-box > *a{
+        margin: 0px;
+    }
+    
+    .info-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;              
+        margin: 0px;  
+        height: 600px;                  
+        background-color: #375a7f;
+        border-radius: 10px;    
+        
+    }
+    .info-item:hover{
+        background-color: #9BA4B5;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.03);
+
+    }
+        .img1 {
+        height: 250px;
+        padding-top: 50px;
+    }
+    .inner-text {
+        text-align: center  ;
+        margin-top: 50px;
+    }
+    .inner-text > p{
+        color: whitesmoke;
+        font-size: 27px;
+
+    }
+    .bottom-container{
+        background-color: #9BA4B5;
+        padding: 50px 0 20px 0;
+        text-align: center;
+        width: 100%;
+
+    }
+    a{
+        font-family: 'Montserrat', sans-serif;
+        color:  #C0DEFF;
+        margin: 10px 20px;
+        text-decoration: none;
+    }
+    
+
+    /*the below is for trainings*/
+    .train-img{
+        height: 300px;
+        float: right;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .train-content{
+        margin: 100px;
+    }
+    .sub{
+        margin-top: 50px;
+        height: 400px;
+    }
+    .sub-header{
+        margin: 0px ;
+    }
+
+    /*the below is for trainings*/
+
+    .message{
+        margin: 100px;
+        text-align: center;
+    }
+    .pep-img{
+        height: 400px;
+        width: 400px;
+        margin-right: 50px;
+        border-radius: 50%;
+        float: left;
+    }
+    .people{
+        text-align: center;
+        margin: 300px;
+    }
+    .people p{
+        padding-top: 180px;
+    }
+
+    /*The below is for Gallery*/
+
+    .img-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+       align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 150px;
+    }
+   .img-container > h1{
+        margin: 50px;
+   }
+    .img-line{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .img-row{
+        height: 200px;
+        width: 200px;
+        
+    }
+    .img-line >a{
+        margin: 0px;
+    }
+
+    /*This is for Tournament*/
+
+    .Tournament-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    .tournament{
+        flex: 1;                
+        margin: 10px;           
+        padding: 20px; 
+        height: 600px;         
+        background-color: #375a7f;
+        border-radius: 10px; 
+    }
+
+    .tour-img{
+        height: 250px;
+        margin: 40px;
+        float: left;
+        
+    }
+
+    /*This is for the Login Page*/
+    /* General Form Styles */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input Styling */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button Styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+    
+    
